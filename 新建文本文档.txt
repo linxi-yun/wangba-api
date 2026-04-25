@@ -1,0 +1,2 @@
+docker build -t wangba-api .
+docker run -d -p 8000:8000 -e WANGBA_MACHINES=10 wangba-api
